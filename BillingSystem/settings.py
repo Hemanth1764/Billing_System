@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'BillingSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'billing_db',
-        'USER': 'postgres',
-        'PASSWORD': '1234567890',
+        'NAME': 'billing_system_db',
+        'USER': 'hosteladmin',
+        'PASSWORD': 'hostel123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
